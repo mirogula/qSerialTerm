@@ -24,7 +24,7 @@ win32 {
 }
 
 unix {
-    LIBS +=  -lSerialPort -lqwt
+    LIBS +=  -lQtSerialPort -lqwt
     INCLUDEPATH += /usr/include/qwt
 }
 
